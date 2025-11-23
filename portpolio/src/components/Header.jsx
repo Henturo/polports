@@ -1,15 +1,14 @@
 import React from "react";
-import './Header.css'; // Optional, or use App.css
 
 function Header() {
   return (
     <header className="header">
       <div className="profile-photo-wrapper">
-        {/* Replace 'profile.jpg' with your photo's filename */}
+        {/* Provide your photo in public/profile.jpg */}
         <img src="/profile.jpg" alt="Profile" className="profile-photo" />
       </div>
       <div>
-        <h1>YOUR NAME</h1>
+        <h1>Your Name</h1>
         <nav>
           <a href="#about">About</a>
           <a href="#skills">Skills</a>

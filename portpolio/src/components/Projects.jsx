@@ -1,5 +1,4 @@
 import React from "react";
-
 const projects = [
   {
     title: 'Portfolio Website',
@@ -9,7 +8,6 @@ const projects = [
   },
   // Add your own projects here
 ];
-
 function Projects() {
   return (
     <section id="projects" className="section">

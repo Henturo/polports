@@ -3,16 +3,20 @@ body {
   color: #F8FAFC;
   font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
 }
-
+.App {
+  min-height: 100vh;
+  background: #181818;
+}
+main {
+  padding: 2rem 0;
+}
 .header {
   background: #1e2636;
   display: flex;
   align-items: center;
   padding: 1.7rem 2rem;
-  box-shadow: 0 2px 16px #0010;
   border-radius: 18px;
 }
-
 .profile-photo-wrapper {
   width: 98px;
   height: 98px;
@@ -31,14 +35,12 @@ body {
   object-fit: cover;
   background: #3d4edf;
 }
-
 .header h1 {
   font-size: 2.2rem;
   font-weight: 700;
   color: #3989ff;
   margin-bottom: 10px;
 }
-
 nav a {
   color: #6cb4ff;
   font-weight: 500;
@@ -49,7 +51,6 @@ nav a {
 nav a:hover {
   color: #238aff;
 }
-
 .section {
   background: #232946;
   border-radius: 16px;
@@ -58,12 +59,10 @@ nav a:hover {
   padding: 2.2rem;
   box-shadow: 0 4px 28px #0038;
 }
-
 .section h2 {
   color: #3989ff;
   font-size: 1.55rem;
 }
-
 .badge {
   background: #1e2636;
   color: #76aaff;
@@ -73,7 +72,6 @@ nav a:hover {
   box-shadow: 0 2px 8px #0030;
   display: inline-block;
 }
-
 .project-card {
   background: #202b41;
   padding: 1.2rem 1.5rem;
@@ -81,14 +79,12 @@ nav a:hover {
   border-radius: 10px;
   box-shadow: 0 2px 16px #0025;
 }
-
 .project-title {
   font-size: 1.1rem;
   color: #238aff;
   margin-bottom: 8px;
   font-weight: 500;
 }
-
 .link {
   color: #6cb4ff;
   transition: color 0.18s;
@@ -97,4 +93,8 @@ nav a:hover {
 .link:hover {
   color: #3989ff;
   text-decoration: underline;
+}
+@media (max-width: 700px) {
+  .header, .section { padding: 1.1rem; }
+  .section { max-width: 98vw; }
 }
