@@ -5,7 +5,7 @@ function Header() {
     <header className="header">
       <div className="profile-photo-wrapper">
         {/* Provide your photo in public/profile.jpg */}
-        <img src="/profile.jpg" alt="Profile" className="profile-photo" />
+        <img src="/charly.jpg" alt="Profile" className="profile-photo" />
       </div>
       <div>
         <h1>Paul John Palamara</h1>
