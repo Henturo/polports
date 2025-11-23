@@ -4,7 +4,7 @@ const projects = [
     title: 'Portfolio Website',
     description: 'Modern portfolio built in React, Dockerized for deployment.',
     tech: ['React', 'Docker'],
-    link: 'https://github.com/yourusername/portfolio'
+    link: 'https://www.youtube.com'
   },
   // Add your own projects here
 ];

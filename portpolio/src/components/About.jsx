@@ -14,6 +14,9 @@ Collaboration and teamwork are important to me. Throughout my studies, I have wo
 Outside of academics, I enjoy engaging in activities that challenge my problem-solving abilities and enhance my creativity. Whether it’s working on personal coding projects, experimenting with new software tools, or participating in tech-related events, I am always eager to learn and contribute. I am committed to continuous growth, both academically and professionally, and I aspire to build a career where I can leverage my skills in Computer Science to create meaningful and innovative solutions.
 
 In summary, I am a motivated and curious learner with a passion for technology, programming, and problem-solving. I strive to make the most of every opportunity, pushing myself to grow and achieve my goals while making a positive impact in the field of technology.
+
+
+
       </p>
     </section>
   );
